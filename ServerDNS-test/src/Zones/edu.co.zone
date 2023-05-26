@@ -1,0 +1,14 @@
+$ORIGIN .
+$TTL 3600        ; 1 hora
+edu.co       IN SOA  ns1.edu.co. dns-admin.edu.co. (
+                    2023052501 ; Número de serie
+                    7200       ; Tiempo de actualización
+                    3600       ; Tiempo de reintentos
+                    1209600    ; Tiempo de expiración
+                    300 )      ; Tiempo mínimo de TTL
+                NS  ns1.javeria.edu.co.
+                NS  ns2.javeria.edu.co.
+                NS  ns3.javeria.edu.co.
+                NS  ns4.javeria.edu.co.
+$ORIGIN edu.co.
+www.javeriana   IN  A   200.3.149.136

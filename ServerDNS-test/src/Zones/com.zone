@@ -1,0 +1,15 @@
+$ORIGIN .
+$TTL 3600        ; 1 hora
+com       IN SOA  ns1.com. dns-admin.com. (
+                    2023052501 ; Número de serie
+                    7200       ; Tiempo de actualización
+                    3600       ; Tiempo de reintentos
+                    1209600    ; Tiempo de expiración
+                    300 )      ; Tiempo mínimo de TTL
+                NS  ns1.com.
+                NS  ns2.com.
+                NS  ns3.com.
+                NS  ns4.com.
+$ORIGIN com.
+www.google  IN A     8.8.8.8
+www.facebook    IN  A 157.240.22.35
