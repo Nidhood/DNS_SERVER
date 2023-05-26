@@ -59,7 +59,7 @@ public class DNS_queries {
 
         */
 
-        InetAddress direccionIP = InetAddress.getByName("127.0.0.1");
+        InetAddress direccionIP = InetAddress.getByName("10.2.1.10");
 
         // ############### PRIMERA FILA ##################
         Random random = new Random();
