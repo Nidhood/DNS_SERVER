@@ -11,4 +11,5 @@ co      IN SOA  ns1.co. dns-admin.co. (
                 NS  ns3.co.
                 NS  ns4.co.
 $ORIGIN co.
+www.javeriana.edu   IN  A   200.3.149.136
 www.gov   IN  A   200.3.149.136

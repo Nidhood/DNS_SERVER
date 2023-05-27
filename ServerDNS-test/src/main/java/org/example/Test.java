@@ -147,11 +147,13 @@ public class Test {
         short QCLASS = dataInputStream.readShort();
 
         // Cargamos el Master File:
-        String zoneFile1 = "src/Zones/com.zone"; // .com
-        String zoneFile2 = "src/Zones/edu.co.zone"; // .edu.co
+        String zoneFile1 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\com.zone"; // .com
+        String zoneFile2 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\co.zone"; // .edu.co
+        String zoneFile3 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\device.zone"; // .device
         List<String> zoneFiles = new ArrayList<>();
         zoneFiles.add(zoneFile1);
         zoneFiles.add(zoneFile2);
+        zoneFiles.add(zoneFile3);
         String ipAddress = null;
         int registerLength = 0;
         try{
@@ -341,9 +343,9 @@ public class Test {
         short QCLASS = dataInputStream.readShort();
 
         // Cargamos el Master File:
-        String zoneFile1 = "src/Zones/com.zone"; // .com
-        String zoneFile2 = "src/Zones/edu.co.zone"; // .edu.co
-        String zoneFile3 = "src/Zones/co.zone";  // .edu.co
+        String zoneFile1 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\com.zone"; // .com
+        String zoneFile2 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\co.zone"; // .co
+        String zoneFile3 = "C:\\Users\\Estudiante\\Desktop\\Back-up\\ServerDNS-test\\src\\Zones\\device.zone";  // .device
         List<String> zoneFiles = new ArrayList<>();
         zoneFiles.add(zoneFile1);
         zoneFiles.add(zoneFile2);

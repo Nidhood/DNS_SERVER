@@ -12,4 +12,10 @@ com       IN SOA  ns1.com. dns-admin.com. (
                 NS  ns4.com.
 $ORIGIN com.
 www.google  IN A     8.8.8.8
+google  IN A     8.8.8.8
 www.facebook    IN  A 157.240.22.35
+www.youtube    IN  A 142.251.32.46
+www.amazon    IN  A 99.84.234.195
+
+
+

@@ -1,0 +1,22 @@
+$ORIGIN .
+$TTL 3600        ; 1 hora
+device      IN SOA  ns1.device. dns-admin.device. (
+                    2023052503 ; Número de serie
+                    7200       ; Tiempo de actualización
+                    3600       ; Tiempo de reintentos
+                    1209600    ; Tiempo de expiración
+                    300 )      ; Tiempo mínimo de TTL
+                NS  ns1.device.
+                NS  ns2.device.
+                NS  ns3.device.
+                NS  ns4.device.
+$ORIGIN device.
+router1   IN  A   192.168.5.1
+r1   IN  A   192.168.5.1
+router2   IN  A   10.10.10.1
+r2   IN  A   10.10.10.1
+router3   IN  A   172.168.20.1
+r3   IN  A   172.168.20.1
+pc1   IN  A   192.168.5.2
+pc2   IN  A   10.10.10.2
+pc3   IN  A   172.168.20.2
